@@ -8,6 +8,17 @@ body{
     margin-top: 20px;
 }
 
+.img-logo-dc{
+  width: 200px;
+  height: 150px;
+}
+
+.img-logo-marvel {
+  width: 400px;
+  height: 150px;
+}
+
+
 /* Animaciones */ 
 .animated {
   -webkit-animation-duration: 2s;
