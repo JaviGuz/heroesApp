@@ -71,12 +71,9 @@ export class HeroesService {
         let heroesArray: Heroe[] = [];
         termino = termino.toLowerCase();
 
-        for (let i = 0; i < this.heroes.length; i++) {
-            let heroe = this.heroes[i];
+        for (let heroe of this.heroes) {
             let nombre = heroe.nombre.toLowerCase();
-
             if (nombre.indexOf(termino) >= 0) {
-             heroe.idx = i;
              heroesArray.push(heroe);
             }
         }

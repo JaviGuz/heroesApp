@@ -18,6 +18,6 @@
 
 <div class="card-columns">
 
-  <app-heroe-tarjeta [heroe]="hero" [index]="hero.idx" *ngFor="let hero of heroes"></app-heroe-tarjeta>
+  <app-heroe-tarjeta [heroe]="hero" [index]="i" *ngFor="let hero of heroes; let i= index"></app-heroe-tarjeta>
 
 </div> 
